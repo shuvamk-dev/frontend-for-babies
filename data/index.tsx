@@ -1,157 +1,127 @@
 export const CONCEPTS = [
   {
-    id: 1,
+    id: 0,
     term: "Browser",
-    explain: (
-      <div>
-        Browser is a special program on your computer that helps you find and
-        look at websites. Websites are like big online books that have lots of
-        different stories and pictures. Browsers look for websites on the
-        Internet so you can look at them. The Internet is like a big library
-        that has lots of books in it, and the browser helps you find the one you
-        want. When you want to look at a website, you type its address into the
-        browser. This is like finding a book in a library. You can also ask the
-        browser to show you websites about whatever you want. To do this, you
-        type some words into the browser that describe what you're looking for.
-        Then the browser will show you a list of websites that might have what
-        you're looking for. You can then pick one of the websites to look at.
-        Browsers also help you save websites so you can look at them later. They
-        also help you remember your passwords, so you don't have to type them in
-        every time you want to look at a website. Browsers also help keep you
-        safe. They can block websites that might have bad things in them or
-        things that could hurt your computer. That's what a browser is, and it's
-        really helpful for looking at websites on the Internet.
-      </div>
-    ),
+    data: "\nBrowser is a special program that helps you find websites on the internet. It can be like a map of the internet and it helps you get to where you want to go.\n\nWhen you use a browser, you type in the address of a website or you can just search for a topic and the browser will help you find what you're looking for. It will show you a list of websites related to the topic you searched for, and you can then choose which one to visit.\n\nThe browser also helps keep you safe while you are looking at websites. It will check to make sure the websites you visit are safe and only show you the ones that are approved.\n\nUsing a browser is like having a guide to the internet. You can go anywhere you want, and the browser will help you find what you need. It's like a special map that helps you explore the internet.\n\nAnd browsers are a lot of fun to use! You can play games, watch videos, and learn about things you've never heard of before. It's like having a window to the world!\n\nSo if you ever want to explore the internet, all you need is a browser. It's the easiest and safest way to look at websites and have fun online.",
+  },
+  {
+    id: 1,
+    term: "Javascript Promises",
+    data: "\nPromises in Javascript are like a special kind of rules. A promise is like a magical word that you can say to make sure a certain thing will happen. For example, if you make a promise to your friend that you will play with them tomorrow, that means that you are promising your friend that you will play with them tomorrow.\n\nPromises in Javascript work a bit differently. In Javascript, promises are like a special type of instruction that you can give to the computer. When you give the computer a promise, it means that the computer will do something for you. For example, if you make a promise to the computer that you will download a picture, the computer will start downloading the picture for you. \n\nPromises can also be used to help you avoid certain problems. For example, when you're programming, you sometimes want to do two things at the same time. However, the computer can only do one thing at a time. By using promises, you can tell the computer to do one task, then do another task after the first one is complete. \n\nIn summary, promises in Javascript are like special rules that you can give to the computer. When you make a promise to the computer, it will make sure to do the task you asked it to do. It also helps you to do two things at the same time, which can be very helpful when you are programming.",
   },
   {
     id: 2,
-    term: "useContext hook",
-    explain: (
-      <div>
-        The useContext hook is a special type of hook in React that helps you
-        share information between different parts of your app. It's like a
-        little bridge that lets different parts of your app talk to each other.
-        Imagine you have a game where you want to keep track of your score. You
-        can use the useContext hook to create a “score bridge” so that your
-        score is shared between all the different parts of the game. For
-        example, if you get a point in one part of the game, it will instantly
-        show up in all the other parts of the game. The useContext hook is like
-        a box that stores information. You can tell it what kind of information
-        it should store, like a score or a list of names, and then it will keep
-        track of that information. You can also tell it to change the
-        information, like if you want to add or subtract points from the score.
-        To use the useContext hook, you need to create a context object. This
-        object is like a box that you can tell your app to store information in.
-        You can also tell the context object to change the information when
-        needed. Once you have a context object, you can use the useContext hook
-        to access the information stored in the box. This is the bridge between
-        different parts of your app. You can use the information from the
-        context object to show the score in one part of the game, and you can
-        use the same information to change the score in a different part of the
-        game. So when you're playing your game and you score a point, the
-        useContext hook is like a bridge that instantly updates the score in all
-        the other parts of the game. Pretty cool, huh?
-      </div>
-    ),
+    term: "Redux",
+    data: "\nRedux is a way to keep track of how things change. It's like a giant notebook that stores different versions of the same thing.\n\nFor example, if you want to keep track of how your family's garden grows each summer, you can use Redux. You can write down what's planted in the garden and when, what grows and when, and what gets harvested and when.\n\nBy using Redux, you can easily look back and compare how your garden changed from one year to the next. For example, if your family planted tomatoes one year and peppers the next, you can easily look back and see the differences.\n\nRedux can also be used to track changes to computer programs. By keeping track of the different versions of a program, programmers can see exactly how their program has changed over time. This makes it easier to troubleshoot problems and make improvements.\n\nRedux is also used to keep track of user data. By keeping track of user data, websites can remember information about their users, such as their preferences and settings, so that they can provide a better user experience.\n\nRedux isn't just a notebook, though. It also includes rules and methods of organizing information so that it can be easily stored and retrieved. This makes it easier for computers to understand and process the data stored in Redux.\n\nRedux is an incredibly powerful and useful tool, but it isn't something you can use without understanding how it works. While it may seem complicated, it's really just about keeping track of how things change.",
   },
   {
     id: 3,
-    term: "redux",
-    explain: (
-      <div>
-        Redux is a way of organizing data in a computer program. It helps keep
-        track of all the pieces of information in the program and makes sure
-        that each piece is in the correct place. Imagine that a computer program
-        is like a big house, with lots of rooms and objects in each room. Redux
-        helps to make sure that each room is in the correct place and that all
-        the objects in the house are organised. Redux works by creating a place
-        to store data from the computer program. This place is called a “store”.
-        In the store, all the pieces of information from the program can be
-        stored, like the type of furniture in each room. Redux helps to make
-        sure that the right type of furniture is in the right place. When the
-        program needs to do something with the data, like move a piece of
-        furniture from one room to another, it sends an “action” to the store.
-        The action tells Redux what needs to be done with the data. Redux then
-        figures out how to do the action, like how to move the furniture, and
-        makes sure that the data is organized correctly. Redux helps to make
-        sure that the data in the program is always organized correctly and that
-        the right pieces of information are in the right place. That way, the
-        program can work properly and do all the things it needs to do.
-      </div>
-    ),
+    term: "Redux Toolkit",
+    data: "\nRedux Toolkit is a special type of tool that helps people keep track of important things. It helps keep track of things like how much money someone has, what games they like to play, or even what color their favorite shirt is. \n\nIt's like a giant sticky note or notebook where you can write down information and store it in one place. It's like a virtual filing cabinet that helps you keep track of all the important things in your life. \n\nRedux Toolkit helps with keeping track of lots of different things, like what books you've read and what movies you've watched. It also helps you remember how to do things, like how to build a computer or how to make a cake. \n\nRedux Toolkit also helps you remember how to do things in the correct order. It can help you remember how to do things like lining up your bike for a race, or how to organize your desk in the morning. \n\nFinally, Redux Toolkit is great at helping you keep track of all your projects. It can help you remember what tasks you need to do to finish a project, or what steps you need to take to make a new game. \n\nRedux Toolkit makes organizing and keeping track of all the important things in your life much easier!",
   },
   {
     id: 4,
-    term: "HTML",
-    explain: (
-      <div>
-        HTML stands for HyperText Markup Language. It's a special code that is
-        used to create websites and webpages. As a 5 year old, you may not know
-        what that means, so let me explain. A webpage is like a book. It is made
-        up of words and images that tell a story. HTML is like a special
-        language that is used to tell the computer what the words and images
-        should be and how they should look. It's like a set of instructions that
-        tell the computer what to do. For example, HTML can tell the computer to
-        make the words on the page big or small. It can also tell the computer
-        to add a picture or a video to a page. HTML can even help the computer
-        to know where to put the links on a page. HTML is like a magic code that
-        helps the computer know what to do. Without it, you would never be able
-        to look at a webpage or read a website. HTML is like a secret language,
-        and it helps the computer make all the amazing things that you can find
-        on the internet.
-      </div>
-    ),
+    term: "Frontend",
+    data: "\nFrontend is a type of computer programming that is like an artist who paints a picture. It is the part of the computer that makes things look nice and that people can interact with.\n\nWhen someone visits a website, the frontend is responsible for displaying the webpages on the user's computer screen. It formats the text, images, and videos so that they look nice and people can understand them. Frontend takes information from the backend and turns it into something that can be seen and interacted with.\n\nFor example, if a website has a button that says \"Sign Up,\" the frontend is responsible for making sure that the button looks the way it should and is easy to click. It also makes sure that when someone clicks the button, it takes them to the right page.\n\nFrontend is also responsible for making sure a website is easy to use. It makes sure that everything is organized in a way that makes sense, and it arranges all the elements of the website so that they look pleasing to the eye.\n\nFrontend programming is like an artist who paints a picture. They have to consider all the elements of the website and make sure that they work together to create a beautiful website that people will want to use. It's a lot of work, but it makes everyone's experience of the website much better.",
   },
   {
     id: 5,
-    term: "CSS",
-    explain: (
-      <div>
-        CSS stands for "Cascading Style Sheets". It is a style sheet language
-        used to describe how a website looks. It is used to make websites look
-        more attractive and to make them easier to use. CSS helps create the
-        look and feel of a website. It can tell the website how to display
-        images, how to make text look, how to position things on the page, and
-        more. It can also improve the usability of a website by making it easier
-        to navigate and find what you're looking for. Think of CSS like a
-        coloring book. You can decide which colors you want to use and where you
-        want to use them. In the same way, you can choose what fonts and colors
-        you want to use on your website and where you want them to go. It's also
-        like building blocks. You can use blocks of code to build a website,
-        like a tower. The blocks are like the building blocks and you can use
-        them to create a great looking website. Finally, CSS is also like an
-        orchestra. You can choose which instruments to use and where to put
-        them. Each instrument is like a piece of code and together they can
-        create a sound that's beautiful. So, CSS is how we make websites look
-        and work great!
-      </div>
-    ),
+    term: "HTML",
+    data: '\nHTML stands for HyperText Markup Language. It is a computer language used to create webpages. Think of it as a set of instructions for a computer that tells it how a webpage should look.\n\nHTML is made up of tags and attributes. Tags tell the computer what the webpage should look like, and attributes give the computer more information about the tags.\n\nFor example, if you wanted to create a heading on your webpage you would use the <h1> tag. This tag tells the computer that the text in between the tags should appear as a heading. If you wanted to add a color to your heading, you would use an attribute to do that. The <h1 style="color: blue;"> tag will make the heading appear blue.\n\nHTML is used to create websites and webpages. But, it is also used to create games and interactive experiences. For example, you can use HTML to make a picture move on the screen or create a button that when clicked on, something happens.\n\nHTML is an important language for the internet because it allows us to create websites and webpages. Without HTML, the internet would look very different!',
   },
   {
     id: 6,
+    term: "CSS",
+    data: "\nCSS stands for Cascading Style Sheets, and it helps make webpages look better. \n\nThink of it like a coloring book - the CSS is like the crayons and the markers that you use to give the pages color and make them look nice. It's a set of instructions that tell the webpage what color everything should be, what font to use, and how things should be arranged on the page. \n\nCSS helps make a webpage look more organized, and it also helps make it look more exciting. For example, if you want a web page to have a fun background, you can use CSS to put a cool pattern on it. If you want to grab someone's attention, you can use CSS to make some text blink or move around. \n\nCSS is also used to help make a webpage easier to use. For example, if you wanted to make sure that a button was always easy to see, you could use CSS to make it a different color than the rest of the page. \n\nCSS is used to make websites look more professional, so that people can find what they need more easily. \n\nWhen you use CSS, it's important to make sure that the instructions are correct. If you make a mistake, it can make the page look strange. But, it's okay to experiment and try out different things - that's part of the fun of using CSS!",
+  },
+  {
+    id: 7,
     term: "Javascript",
-    explain: (
-      <div>
-        Javascript is a type of computer language that helps people make
-        websites on the internet. It tells the computer how to show words,
-        images, and movies on the page, and what to do when someone clicks on or
-        types something. Think of it like this: when you play a board game, the
-        cards and pieces tell you what to do and how to move. Javascript works
-        the same way, but it's like an invisible game-master that tells the
-        computer what to do when someone visits a website. Javascript also helps
-        websites do things like remember who you are when you come back, or show
-        different pictures depending on the time of day. Because Javascript
-        works so fast, it can do things like check if you spelled something
-        wrong before you submit it, or show you a special message if it's your
-        birthday. Without Javascript, websites would be much harder to use. For
-        a five-year-old, the best way to explain Javascript would be to use an
-        everyday example. For instance, when you play with your toys, you tell
-        the toys what to do, like to fly or run, and they do it. Javascript
-        works in a similar way; it tells the computer what to do, like show
-        words and pictures or save information, and then the computer does it.
-        It's like a magical language that helps websites work the way they do.
-      </div>
-    ),
+    data: "\nJavascript is a computer language that helps make websites work better. It is like a special type of code that web developers use to tell web browsers what to do. It helps websites look better, run faster, and do things like remember what you do on the website. It also helps websites do things like show you videos, play music, and let you interact with the website.\n\nJavascript is like a list of instructions that the computer can read and understand. It helps the computer know what to do when you do something on the website. For example, when you click on a button, the Javascript tells the computer what to do next.\n\nJavascript is like a special language that computers understand. It is like a secret code that makes websites do special things. It is like a set of directions that the computer follows to make things happen.\n\nJavascript is like a magic spell that can make websites do amazing things. It can make things move and change, and it can help you do things like buy things online, watch videos, and play games. It can even help you learn new things.\n\nJavascript is an amazing tool that helps make using the internet more fun and exciting. It is used all over the world by countless people every day. It helps websites do amazing things, and it helps make using the internet a lot easier.",
+  },
+  {
+    id: 8,
+    term: "ECMASCRIPT",
+    data: "\nECMAScript is a programming language that is used to create websites, games, and other computer programs. It is used by many different types of developers, from professionals to hobbyists. It is one of the most popular programming languages in the world.\n\nECMAScript is based on the JavaScript language, but it is different in some key ways. ECMAScript is an object-oriented programming language that was designed to be easier to use and more secure than JavaScript. It also has more features and supports more modern, advanced programming concepts.\n\nECMAScript is used to create websites, games, and other computer programs. For example, it can be used to create interactive webpages, create simple games, or create complex web-based applications.\n\nTo a five-year-old, ECMAScript is like a magical language that lets you create things on computers. It's like a special code that you can give to the computer to tell it what to do. With ECMAScript, you can create things like websites, games, and cool graphics. It's like a secret language that only you and the computer understand.\n\nECMAScript can take some time to learn, but it's worth it because it's a powerful language that lets you do amazing things. It's an important language for computer programmers and web developers to know. So, if you want to create exciting things with computers when you're older, learning ECMAScript is a great start!",
+  },
+  {
+    id: 9,
+    term: "Responsive Layout",
+    data: "\nResponsive layout is a way of designing a website so that it looks good on different devices, like phones, tablets, and computers. It's important because everyone likes to be able to use websites on any device they have. \n\nImagine you want to look at a website on your phone, but it looks all squished and tiny. That's not very fun. With responsive layout, the website knows you're looking at it on a phone and it rearranges itself so it looks big and easy to read. Then, if you try to look at the same website on a computer, it will know you're looking at it on a bigger screen and rearrange itself again so it looks nice and big.\n\nIt's like if you had a toy city made of blocks. If you wanted to move the blocks around to make it look different, you would have to pick them up and move them one by one. With responsive layout, the website knows what device you're using and it moves the blocks around itself without you having to do anything.\n\nResponsive layout makes sure that everyone can have a good time looking at websites, no matter what device they're using. That way, you can look at your favorite websites on your phone, your tablet, or your computer, and it will always look nice and be easy to use.",
+  },
+  {
+    id: 10,
+    term: "Inspect Element",
+    data: "\nInspect Element is a tool that helps us to explore the web pages we visit. It's like a magnifying glass, but it lets us look at the internet instead of bugs!\n\nWhen you click on Inspect Element, you will see a window with two panels on the left and right side. The left panel shows how the web page is built up — all the lines of code that make up what you see. The right panel shows how the web page actually looks.\n\nTo use it, you can click on any part of the web page and it will highlight the part of the code related to it. This can help us understand why a web page looks the way it does. For example, if we click on a piece of text on the web page, we can see the code that makes it look bold or a different color.\n\nInspect Element can also be used to make small changes to a web page. For example, if you want to change the background color of a web page, you can use Inspect Element to find the code that is responsible for it, and make a change.\n\nInspect Element is a great tool to help us explore the web. It can help us understand how web pages are built up, and even make small changes. So next time you visit a web page, try clicking Inspect Element to see what you can learn about it!",
+  },
+  {
+    id: 11,
+    term: "Javascript Promises",
+    data: "\nA promise is like giving someone a present. When you give someone a promise, it means you are making a special commitment to do something for them. Promises are like a special gift that you give to someone that you want to keep.\n\nImagine if your best friend said that she was going to take you to the movies this weekend. That would be like making a promise to you and it would make you very happy. You can depend on her promise and plan for the movie night. When your friend follows through and takes you to the movies, she has kept her promise.\n\nIn JavaScript, a promise is a special type of object that represents a task that will be completed in the future. It has three different states: pending, fulfilled and rejected. When a promise is made, it is in the pending state, which means that the task has not yet been completed. When the task is finished, it moves to the fulfilled state, and when something goes wrong, it moves to the rejected state.\n\nPromises are used in JavaScript to help us write programs that are simpler and more efficient. They help us keep track of tasks that take some time to finish and make sure that our code is organized and runs smoothly.\n\nPromises are a helpful tool to use when writing code, especially when dealing with something that takes a while to finish. Think of a promise like a gift you give someone - you know the person will be able to rely on you to follow through and complete the task.",
+  },
+  {
+    id: 12,
+    term: "Javascript Callback Hell",
+    data: "\nWhen you go to the store, you ask your mom for something, and she tells you to do something else first. That something else might be to clean your room, or help your brother with his homework. No matter what it is, once you’ve done that something else, you can finally get what you asked for. That something else is called a callback.\n\nIn Javascript, a callback is a function that happens after something else has already happened. When you ask your mom for something, the “something else” is the callback. When you do it in Javascript, the “something else” can be a lot of things, and it can be complicated. When there’s a lot of complicated things that need to happen after something, it can get confusing and messy, and that’s what people mean when they talk about Callback Hell.\n\nCallback Hell is like a really big pile of tasks that all need to be done in order. It’s like a game of Jenga, where you have to take out a piece, and if it’s the wrong one, the whole thing tumbles down. If you make a mistake, everything stops and you have to start all over again.\n\nCallback Hell is something that can be hard for even grown-ups to understand. To a five year old, it might seem like a really confusing game. But the important thing to remember is that it’s just a way of making sure that things happen in the right order. Just like when you asked your mom for something and she told you to do something else first, callback hell is just a way of making sure things happen in the right order.",
+  },
+  {
+    id: 13,
+    term: "Javascript Try Catch Block",
+    data: "\nA Javascript Try Catch Block is a way for a computer program to try something and if it does not work, catch the problem and fix it. It is a way for a computer program to handle errors in a predictable and organized way.\n\nImagine if you have a five-year-old who is learning to ride a bike. You are helping them learn, but you know that there is a chance they might fall. So, you have a strategy to try and help them learn to ride, but you also prepare for the possibility that they might fall.\n\nYou make sure they have a helmet, and you prepare the ground by clearing any sharp objects. You provide instructions and help them get on the bike. When they start to ride, you encourage them to keep pedaling and try to stay balanced.\n\nBut, you know that they might fall, so you also make sure you are watching them closely so you can catch them if they fall. So, if they do fall, you are there to help them up and make sure they are okay.\n\nThis is similar to the Javascript Try Catch Block. The computer program tries something and if it does not work correctly, it will catch the problem and fix it. \n\nFor example, a computer program might try to open a file, but if the file does not exist, the computer program will catch the error and display an error message instead of crashing. This way, the computer program can handle the error in a predictable and organized way.\n\nSo, the Javascript Try Catch Block is a way for a computer program to try something, but also have a plan in case it does not work. This way, the computer program can handle errors and keep running without crashing.",
+  },
+  {
+    id: 14,
+    term: "ReactJS",
+    data: "\nReactJS is a type of software that helps people make websites and apps. It makes it easier for people to create things on the computer. It helps people create things faster, and with better quality. ReactJS works by breaking bigger tasks into smaller parts. This makes it easier for people to work on each part separately.\n\nWhen people use ReactJS, they write code to tell their computer what they want it to do. The code is like a set of instructions that the computer follows. The code tells the computer what to do and how to do it. People can also use ReactJS to make websites look more attractive and interesting.\n\nReactJS is also useful for making things on the computer interactive. This means that people can click on things, type things, and make decisions. This makes the website or app more fun to use.\n\nReactJS can also help people make things faster. It can find ways to make things easier and faster and simpler. This helps people save time and energy when they are creating things.\n\nFinally, ReactJS is also a way of making things look the same across all kinds of devices. This means that if a person is using a laptop, a tablet, or a phone, they will be able to see the same thing.\n\nReactJS is like a really smart way of making things on the computer. It is like a helper that makes it easier to do things faster and better.",
+  },
+  {
+    id: 15,
+    term: "Angular",
+    data: "\nAngular is a computer program that helps developers create websites and apps. It is like a puzzle game that helps you put together all of the pieces to create something new and interesting. To start with, Angular will ask you to make a plan of what you want your website or app to look like. It will help you to draw out the different parts, like the buttons, windows, and images, and create a map of how the pieces fit together. \n\nOnce the map is complete, the next step is to set up the code. This code is like a secret language that the computer understands and uses to bring the map to life. With Angular, you can use the code to add certain features, such as clicking buttons, typing words, and moving images around. \n\nTo make sure everything works, Angular can also help you test the website or app. This means it will ask you to click different buttons, type words, and move images around to make sure the website or app works the way you wanted. After the test is complete, you can make changes to the website or app if something doesn’t look or work the way you expected. \n\nFinally, when everything is ready, Angular can help you share the website or app with the world. Now anyone with a computer or phone can access the website or app and interact with it. \n\nIn summary, Angular is a computer program that helps developers create websites and apps. It helps you make a plan, set up the code, test the website or app, and share it with the world. It is a great way to create something new and exciting!",
+  },
+  {
+    id: 16,
+    term: "Vue",
+    data: "\nVue is a very cool way of making websites and apps. It's like a magical box, where you can put things inside and it will make them look really cool and give them special abilities.\n\nWhen you put something in the Vue box, it becomes like a \"view\". A view is a web page or app screen that you can look at and interact with on the computer. For example, let's say you want to make a page that shows a picture of your favorite animal. You can put the picture in the Vue box, and it will make a neat view with the picture on it. Then, you can add some text to the view to explain what the picture is.\n\nVue can also do a lot of other cool things. It can make things move around, like a game where you can play with a cat or a dog. It can also change colors and sizes, so you can make things look big or small or in all kinds of colors. You can also add buttons or other control elements, so you can click things and make things happen.\n\nVue is a great way to make websites and apps, because it's very easy to use and it looks great. So, next time you want to make something cool and exciting on the computer, try Vue!",
+  },
+  {
+    id: 17,
+    term: "UI",
+    data: "\nUI stands for user interface and is the way that people interact with the technology that they use. It is the way people access the features and functions of that technology. For example, when you use a phone or computer, you will use the UI to make calls, send messages, and access applications. \n\nIn a way, you can think of UI as similar to when you use your voice to ask your parents to do something. The UI is like the language you are using to ask for what you want from the technology.\n\nTo a five year old, UI can be best understood as the way you control the technology. It is like the buttons or the menus you press to make it do something. For example, when you use a computer, you use the mouse to move the arrow around on the screen, or you type on the keyboard to type words. \n\nTo make UI easier for children to understand, many technology companies are developing kid-friendly versions of their platforms. For example, the Apple iPad has a special mode called Guided Access, which locks the iPad into a single app so children can play games and make use of educational apps safely. \n\nUI also applies to more than just computers and phones. For example, when your five year old plays with their toys, they use the UI to control the action. The buttons on the toy or the remote control they use to change between functions and make the toy do what they want. Even when they are playing a game on a tablet or phone, they use the UI to control the game. \n\nIn conclusion, UI is the way people interact with technology. It is the way people access features and functions, like when you use your voice to ask for something, or when you use the buttons on a toy or remote control. It is important to understand UI, because it is how we control the technology we use, from computers and phones to toys and games.",
+  },
+  {
+    id: 18,
+    term: "UX",
+    data: "\nUX stands for user experience, and it's all about making sure people have a great time when they're using things like websites, phones, apps, and more. It's like a game, but instead of playing to win, we're playing to make sure someone else has a good time. \n\nUX is all about making sure the person using something has a good time. A website, for example, should be easy to use, with lots of pictures and colors, and fun buttons to click on. That way, the user can easily find what they're looking for and have a good experience.\n\nJust like when you play a game with someone else, UX is all about making sure that person has a good time. When you play games with your friends, you make sure to follow the rules and have fun. The same is true with UX. You want to make sure the user is having an enjoyable time using the website or app.\n\nUX is also about making sure people can find what they're looking for quickly and easily. This means making sure the website or app is organized in a way that makes sense. If a website looks messy and has lots of confusing buttons, it's probably not a good user experience.\n\nFinally, UX is all about making sure people are comfortable using something. This means the colors and fonts used should look nice and be easy to read. If a website or app looks too busy or complicated, users may not want to keep using it.\n\nSo when it comes to UX, it's important to think of the user's experience as a game, and to make sure they're having a good time!",
+  },
+  {
+    id: 19,
+    term: "Regex",
+    data: "\nRegex stands for \"Regular Expressions,\" and it's a way of searching for and finding words or symbols in a text. Imagine looking for a specific type of cookie in the cookie jar. You could look through the jar and find it, but what if you can't find it? With Regex, you can use a special set of rules to tell the computer exactly what type of cookie you're looking for. For example, if you're looking for a cookie with chocolate chips and nuts, you could use Regex to tell the computer to only show you the cookies that have both chocolate chips and nuts. \n\nRegex is like a code for telling the computer how to find the things you're looking for. It uses symbols, numbers and letters to give instructions. For example, if you want to find all of the words that start with the letter 'A', you could use a Regex that looks like this: /A\\w+/ It means that the computer should look for all words that start with 'A' and have at least one more letter after it.\n\nRegex is used in many places, like search engines and websites. For example, if you wanted to search for a specific type of article on a website, you could use Regex to create a search query that only returns articles that match what you're looking for. It's a powerful way to quickly find what you need. \n\nRegex is also used in programming languages, like Java and JavaScript. It's a great way to make your code more efficient and accurate. For example, a programmer might use Regex to create a program that can find and replace certain words or symbols in a text.\n\nRegex is a great tool to have in your toolbox. It's a powerful way to search for and find specific things in a text, as well as make your programming code more efficient.",
+  },
+  {
+    id: 20,
+    term: "Functions",
+    data: "\nA function is a bit like a machine. It’s like a robot that knows how to do one specific thing. You give it something to do, and it will do it just the way you told it, every single time. \n\nFor example, if you want to add two numbers together, you could give them to the function and it will add them up for you. Or if you want to draw a circle, you could give the function the instructions, and it will draw the circle for you. \n\nIt’s like having a robot that knows how to do something specific, and it will do it just the same every time. This makes it very useful for computers, because computers can do very complicated things very quickly, just by having a bunch of functions. \n\nFunctions can also help us solve problems. For example, if you want to know how much money you’ll have in 3 years if you save $10 per month, you could give that problem to a function and it will give you the answer. \n\nTo make things even easier, functions can sometimes be made up of other functions. So, if you want to do something complicated, you can break it down into smaller pieces, and each piece can be a function. \n\nThat’s basically what a function is. It’s like having a robot that knows how to do one specific thing, very quickly and very accurately.",
+  },
+  {
+    id: 21,
+    term: "Javascript Classes",
+    data: "\nClasses are a way of organizing information so that it is easier to understand. Think of classes like a box - when you put things into the box, it keeps them all together and you can find them quickly when you need them. Javascript classes are a way of doing the same thing, but with computer code.\n\nWhen you write a program, you may need to keep track of different kinds of information. For example, if you are writing a program to create a drawing program, you might need to store different kinds of shapes, like circles, squares, triangles, and lines. Instead of writing the code to store each shape separately, you can use a Javascript class to store all of the shapes together in one place.\n\nClasses are like containers that hold things together. You can use classes to store different kinds of information in a way that makes it easier to find and use. For example, if you were writing a program to create a drawing program, you might use a Javascript class called “Shape”. In that class, you could store information like the type of shape, its size, the color, and even the pattern. All of this information would be stored together, making it easier to find and use.\n\nClasses are also like blueprints for creating things. If you have a Javascript class called “Shape”, you can use that class to create different kinds of shapes. Each time you create a shape, it will have all the same information - like type, size, color, pattern - that you stored in the class. This makes it easier to create different kinds of shapes without having to write a lot of code.\n\nJavascript classes are a great way to organize information and create things quickly and easily. It can be a lot of fun to create things with classes and see the results right away!",
+  },
+  {
+    id: 22,
+    term: "Javascript constructor",
+    data: "\nA constructor is a special type of function in Javascript. It's used to create an object that contains certain properties, or pieces of information about an object. For example, if you wanted to create a game character, you could use a constructor to create an object that contains the character's name, age, and special abilities. \n\nThink of it like a cookie cutter. You can use the cookie cutter to make lots of cookies that are all shaped the same way. The constructor works in the same way. You use it to create lots of objects that have the same properties, or information. \n\nLet's say you wanted to create a game character that was a superhero. You might use a constructor to create an object that contains the superhero's name, age, and superpower. You could give the constructor the information for your superhero, like its name and age, and then it would create an object with that information inside it. \n\nConstructors are very useful for creating objects in Javascript. They make it easy to create lots of objects that all have the same properties. So, if you wanted to create a game with lots of superheroes, using a constructor would be a great way to do it!",
+  },
+  {
+    id: 23,
+    term: "Jquery",
+    data: "\nJquery is a computer language that helps people to use the internet faster and easier. It's a programming language that helps website designers to quickly create websites and applications that look great and run smoothly. It's like a big toolbox that website designers can use to quickly make a website or application look good.\n\nJquery helps website designers make websites faster and easier. It helps them use some of the same tools and features, so they don't need to start all over every time they want to make a website. For example, if you wanted to make a website that had different colored boxes all over it, you could use Jquery. Jquery would help you quickly create those boxes, so you don't have to spend a long time writing code. \n\nJquery also helps website designers make websites and applications look better. For example, it can help them make things look more interesting by adding animations or making things move. It also helps them make websites look more organized, with elements that look like they belong together. \n\nJquery is also used to make websites easier to use. It helps website designers make buttons that are easy to click and make it easier to find what you're looking for. It can also help them add tools to websites that make it easier to search, shop, or do other things. \n\nJquery is like a special toolbox that website designers can use to make websites faster and easier, while making them look better and making them easier to use. It's an amazing tool that helps website designers quickly create amazing websites and applications.",
+  },
+  {
+    id: 24,
+    term: "Async/Defer",
+    data: "\nAsync and Defer are two words that describe a way that computers can load information faster. When a computer needs to get information from the internet, it can take a long time to get all of the information. Async and Defer help the computer to load the information faster.\n\nAsync stands for Asynchronous. Asynchronous means that the computer gets the information all at once, instead of loading one piece of information at a time. This way, the computer can get all of the information right away, without having to wait for each piece of the information to load. \n\nDefer stands for Deferred. Deferred means that the computer can start looking for the information, but it doesn't actually load it until it is needed. That way, the computer can start looking for the information while it is doing other things. When the information is needed, the computer can quickly load it instead of waiting for it to load before it can do something else. \n\nUsing Async or Defer can help a computer to get the information it needs faster. This means that things like websites and online games can be loaded faster so that you can use them faster. So, when a computer needs to get information, it can use Async and Defer to get it faster.",
   },
 ];
